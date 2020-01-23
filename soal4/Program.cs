@@ -51,8 +51,6 @@ namespace soal4
            Console.WriteLine(await Robert());
            Console.WriteLine("===============Get popular movie list that released on 2016 and the votes above 7.5=============");
            Console.WriteLine(await List());
-           
-           
             
         }
     }
