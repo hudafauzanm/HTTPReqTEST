@@ -53,7 +53,6 @@ namespace soal3
 
             var hasil = JsonConvert.SerializeObject(data,Formatting.Indented);
             Console.WriteLine(hasil);
-
         }
     }
 }
