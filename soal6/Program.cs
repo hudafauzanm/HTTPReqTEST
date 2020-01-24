@@ -33,10 +33,10 @@ namespace soal6
                 var konten = htmlDoc.DocumentNode.SelectNodes("//div[contains(@class, 'movie-add-info left')]/ul/li");
                 var trailer = htmlDoc.DocumentNode.SelectNodes("//div[contains(@class, 'trailer-btn-wrapper')]/img");
                 var sinopsis = htmlDoc.DocumentNode.SelectNodes("//div[contains(@class, 'movie-synopsis right')]");
-                Console.WriteLine("============================================================================");
+                Console.WriteLine("=======================================================================BATAS FILM TERBARU==============================================================");
                 foreach(var x in node)
                 {
-                    Console.WriteLine("JUDUL : " + x.InnerText.Trim());
+                    Console.WriteLine(x.InnerText.Trim().ToUpper()+"\n");
                 }
                 foreach(var y in konten)
                 {
