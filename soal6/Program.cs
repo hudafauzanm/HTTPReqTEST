@@ -50,7 +50,7 @@ namespace soal6
                 }
                 foreach(var b in sinopsis)
                 {
-                    Console.WriteLine("SINOPSIS : "+b.InnerText.Trim());
+                    Console.WriteLine("SINOPSIS " +"\n"+b.InnerText.Trim());
                 }
             }
             
